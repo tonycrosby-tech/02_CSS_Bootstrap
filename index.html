@@ -8,18 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
 </head>
-
-<style>
-  a:hover {
-    background-color: orange;
-  }
-</style>
 
 <body>
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Tony Crosby</a>
+    <a class="navbar-brand" href="index.html">Tony Crosby</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,9 +23,6 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="crosbytony.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -46,57 +38,75 @@
     </div>
   </nav>
 
-  <br>
+<br>
   
-  <main class="container">
+<main class="container-md">
 
     <hr ::before bg-dark>
 
-    <h1 class="text-secondary">Homepage</h1>
+      <div class="row">
 
-    <hr ::before bg-light>
-    
+        <div class="col-12 sm-6">
 
-  </br>
-    <div class="row-6 sm-3 mt-2">
+          <h3 class="text-secondary sm-6 pb-2">About Me</h3>
+            <p class="font-serif text-dark lead sm-12 text-secondary">My names Tony Crosby,
+            </p>
 
-      <div class="col-6 sm-3 mt-2">
+            <p class="font-serif text-dark lead sm-4 text-secondary">I'm a student at KU studying Web Developing and Coding, I love building computers and doing anything that has to deal with a computer.
+            </p>
 
-        <section class="card" style="widows: 250px">
-
-          <img class="card-img-top" src="./Pictures/27067841_1627146370711870_2899505521628237938_n.jpg" width="250px" alt="Card image">
-
-          <aside class="card-body">
-
-            <h4 class="card-title">Tony Crosby</h4>
-
-              <p class="card-text">Born and Raised in Leavenworth, Kansas.</p>
-
-              <a href="crosbytony.html" class="btn btn-success">See Profile</a>
-          </aside>
-
-        </section>
-      </div>
-    </div>
-  </main>
-
-  <section class= "container-fluid">
-
-    <div class="mt-4">
-      <footer class="page-footer font-small blue">
-
-        <div class="alert alert-primary" role="alert">
-
-        <strong class="text-dark"> © 2020 Copyright :
-        Tony Crosby
-        </strong>
-
-        <a class="text-muted" href="tonycrosby.net" rel="tony"> Website</a>
-
+            <p class="font-serif text-dark lead sm-4 text-secondary">I joined the program because I wanted to figure out how to work a computer from the brains since I know how to put one together on the outside.
+            </p>
         </div>
-      </footer>
-    </div>
-  </section>
+      </div>
+    <hr ::before bg-dark>
+
+    <section class="jumbotron">
+
+      <div class="row">
+
+        <div class="col sm-6">
+
+          <h1 class="display-3">My Hobbies!</h1>
+            <p class="lead">I love playing video games and researching how to do stuff, 
+                and watching youtube tutorials, I also like listening to music. 
+                My favorite band is Staind, and my favorite rapper is Juice WRLD.
+            </p>
+        </div>
+      </div>
+    <hr ::before bg-dark>
+    
+      <div class="row"> 
+
+        <div class="col sm-6">
+
+          <img class="rounded-circle float-right" img src="./Pictures/Tony Chiefs.jpg" alt="Chiefs" width="100px" height="100px"/>
+        
+            <h1 class="display-3">I love the chiefs!</h1>
+              <p class="lead">I've been to many chiefs games and watch almost every game that I can at home or at the stadium!
+              </p>
+              <a class="btn btn-primary btn-sm" href="contact.html" role="button">Contact Me here!</a>   
+    </section>
+
+</main>
+
+<section class= "container-fluid">
+
+  <div class="mt-4">
+    <footer class="page-footer font-small blue">
+
+      <div class="alert alert-primary" role="alert">
+
+      <strong class="text-dark"> © 2020 Copyright :
+      Tony Crosby
+      </strong>
+
+      <a class="text-muted" href="tonycrosby.net" rel="tony"> Website</a>
+
+      </div>
+    </footer>
+  </div>
+</section>
 
 </body>
 </html>
