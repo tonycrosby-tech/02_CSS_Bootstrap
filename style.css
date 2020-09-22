@@ -5,4 +5,9 @@ a:hover {
 a:focus {
     background: green;
 }
+
+p {
+    font-size: 24px;
+    font-family: serif;
+}
   
