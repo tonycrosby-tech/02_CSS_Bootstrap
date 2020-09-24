@@ -7,7 +7,7 @@ a:focus {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     font-family: serif;
 }
 
@@ -15,6 +15,3 @@ body {
     background-image: url(./Pictures/HjIyYJ.jpg);
 }
 
-.lead {
-    font-size: 16px;
-}
