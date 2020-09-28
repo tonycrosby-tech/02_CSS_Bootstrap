@@ -14,7 +14,7 @@
 
 # Link to the page
 
-> tonycrosby.net
+> tonycrosby.net/02_CSS_Bootstrap
 
 # Link to the repository
 
