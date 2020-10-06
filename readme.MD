@@ -1,3 +1,6 @@
+<a href="http://tonycrosby.net/02_CSS_Bootstrap"><img src="./assets/Capture2.JPG" title="Website" alt="Website"></a>
+
+
 # User Acceptance 
 
 > ## The Navbar is where you will click through the 3 Different Sections (Home, Portfolio, Contact) that will then redirect you to a certain Page of the Website.
@@ -14,7 +17,7 @@
 
 # Link to the page
 
-> tonycrosby.net/02_CSS_Bootstrap
+> https://tonycrosby.net/02_CSS_Bootstrap
 
 # Link to the repository
 
